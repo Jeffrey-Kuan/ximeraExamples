@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head> <title>Outcome Style Test Activity</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='\aa:CssFile ' rel='stylesheet' type='text/css' /> 
+<meta content='outcome2.online.tex' name='src' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<meta content='' name='author' /> 
+<meta content='version 2.5.1' name='ximera' /> 
+<link href='https://ximera.osu.edu/public/stylesheets/standalone.css' media='screen' rel='stylesheet' /> 
+<script src='https://ximera.osu.edu/public/javascripts/standalone.min.js' type='text/javascript'></script> 
+</head><body> 
+<div class='preamble'>
+<script type='math/tex'>\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\thanks }[1]{}
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
+\newcommand {\preOutputLine }[0]{This marks the beginning of the outcome line. }
+\newcommand {\postOutputLine }[0]{ This marks the end of Outcome Line.\\}
+\newcommand {\preOutputBlock }[0]{This is the beginning of a boring block of outcomes. No itemize.\\}
+\newcommand {\postOutputBlock }[0]{End of Block... a boring block without any itemize.\\}
+\newcommand {\outcomeHeader }[0]{This is the header - so you should see a block below this.\\}
+\newcommand {\ximera }[0]{Ximera}
+\newcommand {\luastring }[1]{"\luatexluaescapestring {#1}"}
+\newcommand {\luastringO }[1]{\luastring {\unexpanded \expandafter {#1}}}
+\newcommand {\luastringN }[1]{\luastring {\unexpanded {#1}}}
+\newcommand {\RestoreMathJaxEnvironment }[1]{\expandafter \let \csname #1\expandafter \endcsname \csname mathjax-#1\endcsname \expandafter \let \csname end#1\expandafter \endcsname \csname mathjax-end#1\endcsname }
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\problem }[0]{ }
+\newcommand {\exercise }[0]{ }
+\newcommand {\question }[0]{ }
+\newcommand {\exploration }[0]{ }
+\newcommand {\ConfigureTheoremEnv }[1]{\renewenvironment {#1}[1][]{\refstepcounter {problem}\ifthenelse {\equal {###1}{}}{}{\HCode {&lt;span class="theorem-like-title"&gt;}###1\HCode {&lt;/span&gt;}}}{} \ConfigureEnv {#1}{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="theorem-like problem-environment #1" id="problem\arabic {identification}" titletext=" \GetTranslation {#1}"&gt;}}{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;/div&gt;}\IgnoreIndent }{}{}}
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\foldable }[0]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div id="foldable\arabic {identification}" class="foldable"&gt;}}
+\newcommand {\unfoldable }[1]{\HCode {&lt;span class="unfoldable"&gt;}#1\HCode {&lt;/span&gt;}}
+\newcommand {\selectAll }[0]{\refstepcounter {problem}}
+\newcommand {\freeResponse }[0]{\refstepcounter {problem}}
+\newcommand {\javascript }[0]{\NoFonts }
+\newcommand {\sageCell }[0]{\NoFonts }
+\newcommand {\sageOutput }[0]{\NoFonts }
+\newcommand {\sagesilent }[0]{\NoFonts }
+\newcommand {\ungraded }[0]{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="ungraded"&gt;}\IgnoreIndent }
+\newcommand {\accordion }[0]{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="accordion"&gt;} }
+\newcommand {\expandable }[2]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="accordion"&gt;\Hnewline }\HCode {&lt;h3 class="#1"&gt;}#2\HCode {&lt;/h3&gt;\Hnewline }\HCode {&lt;div id="accordion-item\arabic {identification}" class="accordion-item #1-content"&gt;\Hnewline } }
+\newcommand {\paragraph }[1]{\HCode {&lt;span class="paragraphHead"&gt;}#1\HCode {&lt;/span&gt;}\par \IgnorePar }
+\newcommand {\subparagraph }[1]{\HCode {&lt;span class="subparagraphHead"&gt;}#1\HCode {&lt;/span&gt;}\par \IgnorePar }
+\newcommand {\outcome }[1]{\HCode {&lt;span class="learning-outcome"&gt;#1&lt;/span&gt;} }
+\newcommand {\javascriptCode }[0]{\NoFonts }
+\newcommand {\GetTranslation }[1]{#1}
+\newcommand {\ref }[1]{\HCode {&lt;a class="reference" href="\##1"&gt;#1&lt;/a&gt;}}</script></div>
+<style> .activity-body pre { white-space: pre; background-color: lightgray; } .xmyoutube { aspect-ratio: 16/9; min-width: 75%; } .image-environment img { width: unset; } </style> 
+  
+<div class='abstract'>
+<!--  l. 23  --><p class='noindent'>A testbed file for Outcomes.</p> 
+</div>
+<div class='maketitle'></div>
+<h3 class='sectionHead' id='intended-outcome-of-test'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Intended Outcome of Test</h3>
+<!--  l. 28  --><p class='noindent'>In the preamble, before we use the outcome commands, we change the styling of the
+outcomes using the following commands:
+</p>     
+<dl class='description'><dt class='description'>
+preOutputLine 
+</dt><dd class='description'>
+<!--  l. 30  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\preOutputLine</code></span> is a macro that holds the LaTeX code
+that is prepended to each <span class='obeylines-h'><code class='verb'>\outcome{text}</code></span> text. This is intended to be
+used by content authors to stylize their outcome items.<br class='newline' />By default, the content of <span class='obeylines-h'><code class='verb'>\preOutputLine</code></span> is: <span class='obeylines-h'><code class='verb'>\item </code></span>
+</p>     
+</dd>
+<dt class='description'>
+postOutputLine 
+</dt><dd class='description'>
+<!--  l. 33  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\postOutputLine</code></span> is a macro that holds the LaTeX code
+that is appended to each <span class='obeylines-h'><code class='verb'>\outcome{text}</code></span> text. This is intended to be
+used by content authors to stylize their outcome items.<br class='newline' />By default, the content of <span class='obeylines-h'><code class='verb'>\postOutputLine</code></span> is empty
+</p>     
+</dd>
+<dt class='description'>
+preOutputBlock 
+</dt><dd class='description'>
+<!--  l. 36  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\preOutputBlock</code></span> is a macro that holds the LaTeX code
+that is executed prior to any of the <span class='obeylines-h'><code class='verb'>\outcome</code></span> commands. This is intended
+to be used by content authors to stylize their outcome lists.<br class='newline' />By default, the content of <span class='obeylines-h'><code class='verb'>\preOutputBlock</code></span> is: <br class='newline' /><span class='obeylines-h'><code class='verb'>At the end of this section, students should be able to... \begin{itemize}</code></span>
+</p>     
+</dd>
+<dt class='description'>
+postOutputBlock 
+</dt><dd class='description'>
+<!--  l. 40  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\postOutputBlock</code></span> is a macro that holds the LaTeX code
+that is executed after all of the <span class='obeylines-h'><code class='verb'>\outcome</code></span> commands are llisted. This is
+intended to be used by content authors to stylize their outcome lists.<br class='newline' />By      default,      the      content      of      <span class='obeylines-h'><code class='verb'>\postOutputBlock</code></span>    is:
+<span class='obeylines-h'><code class='verb'>\end{itemize} So go forth and learn!</code></span>
+</p>     
+</dd>
+<dt class='description'>
+outcomeHeader 
+</dt><dd class='description'>
+                                                                  
+
+                                                                  
+<!--  l. 43  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\outcomeHeader</code></span> is a macro that holds the LaTeX code
+that is displayed prior to the actual outcome block. This is intended to be
+used by content authors to display a header - e.g. for an expandable or
+hover text.<br class='newline' />By       default,       the       content       of       <span class='obeylines-h'><code class='verb'>\outcomeHeader</code></span>    is:
+<span class='obeylines-h'><code class='verb'>Goals for this Section (Hover over me to see!)</code></span>
+</p>     
+</dd>
+<dt class='description'>
+outcomeBlock 
+</dt><dd class='description'>
+<!--  l. 46  --><p class='noindent'>The command <span class='obeylines-h'><code class='verb'>\outcomeBlock</code></span> is an html only macro that provides the
+html code to support the <span class='obeylines-h'><code class='verb'>\outcomeHeader</code></span> macro content. This should
+largely be left alone.</p></dd></dl>
+<!--  l. 50  --><p class='noindent'>We have changed the styling from the above defaults using the following commands:
+</p>     
+<ul class='itemize1'>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\preOutputLine{This marks the beginning of the outcome line. } </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\postOutputLine{ This marks the end of Outcome Line.\\} </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\preOutputBlock{This is the beginning of a boring block of outcomes. No itemize.\\} </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\postOutputBlock{End of Block... a boring block without any itemize.\\} </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\outcomeHeader{This is the header - so you should see a block below this.\\} </code></span></li></ul>
+<!--  l. 59  --><p class='noindent'>Then, again in the preamble, we used the following commands to populate the
+outcomes: </p>
+<ul class='itemize1'>     
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\outcome{Answer some questions about some stuff.} </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\outcome{Do something productive.} </code></span>
+                                                                  
+
+                                                                  
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\outcome{Learn how Questions work maybe.} </code></span>
+</li>
+<li class='itemize'><span class='obeylines-h'><code class='verb'>\outcome{Maybe other stuff - who knows!} </code></span></li></ul>
+<!--  l. 67  --><p class='noindent'>The test area should look (approximately) like the following:
+</p><!--  l. 70  --><p class='noindent'>This is the header - so you should see a block below this.<br class='newline' />This is the beginning of a boring block of outcomes. No itemize.<br class='newline' />This marks the beginning of the outcome line. Answer some questions about some
+stuff. This marks the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Do something productive. This marks
+the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Learn how Questions work maybe.
+This marks the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Maybe other stuff - who knows! This
+marks the end of Outcome Line.<br class='newline' />End of Block... a boring block without any itemize.
+</p><!--  l. 81  -->
+<h3 class='sectionHead' id='start-of-testdemo-area'><span class='titlemark'>2   </span> <a id='x1-20002'></a>Start of Test/Demo Area</h3>
+<div class='outcomeHead'> This is the header - so you should see a block below this.<br class='newline' /></div> <div class='outcomeContent'> This is the beginning of a boring block of outcomes. No itemize.<br class='newline' />This marks the beginning of the outcome line. Answer some questions about some
+stuff. This marks the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Do something productive. This marks
+the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Learn how Questions work maybe.
+This marks the end of Outcome Line.<br class='newline' />This marks the beginning of the outcome line. Maybe other stuff - who knows! This
+marks the end of Outcome Line.<br class='newline' /> End of Block... a boring block without any itemize.<br class='newline' /></div>
+<!--  l. 85  -->
+                                                                  
+
+                                                                  
+<h3 class='sectionHead' id='end-of-testdemo-area'><span class='titlemark'>3   </span> <a id='x1-30003'></a>End of Test/Demo Area</h3>
+<!--  l. 87  --><p class='noindent'>Some ending text to ensure that there is no unintended output between end of the
+test/demo and the end of the document.
+</p>
+</body> 
+ 
+</html>

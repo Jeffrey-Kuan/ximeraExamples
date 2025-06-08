@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head> <title>Titles</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='\aa:CssFile ' rel='stylesheet' type='text/css' /> 
+<meta content='titles.online.tex' name='src' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<meta content='Bart Snapp' name='author' /> 
+<meta content='version 2.5.1' name='ximera' /> 
+<link href='https://ximera.osu.edu/public/stylesheets/standalone.css' media='screen' rel='stylesheet' /> 
+<script src='https://ximera.osu.edu/public/javascripts/standalone.min.js' type='text/javascript'></script> 
+</head><body> 
+<div class='preamble'>
+</div>
+<style> .activity-body pre { white-space: pre; background-color: lightgray; } .xmyoutube { aspect-ratio: 16/9; min-width: 75%; } .image-environment img { width: unset; } </style> 
+  
+<div class='abstract'>
+<!-- l. 12 --><p class='noindent'>Description of titles.</p> 
+</div>
+<div class='maketitle'></div>
+<!-- l. 15 --><p class='noindent'>Titles and abstracts help users find your content. Typically, activites need titles and
+an abstract. For example:
+                                                                  
+
+                                                                  
+</p>
+<pre class='verbatim' id='verbatim-1'>
+<span class='ec-lmtt-10'>\documentclass{ximera}
+\title{Title of your activity}
+\author{Your name here}
+\begin{document}
+\begin{abstract}
+  A one-sentence description of the activity.
+\end{abstract}
+\maketitle
+\end{document}</span>
+</pre>
+<!-- l. 28 --><p class='nopar'>
+</p>
+<h3 class='sectionHead' id='title-styles'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Title styles</h3>
+<!-- l. 35 --><p class='noindent'>To help make a book, Ximera provides syle commands for the titles of the activities.
+These should be used in the <span class='obeylines-h'><code class='verb'>xourse</code></span> file.
+                                                                  
+
+                                                                  
+</p>
+<pre class='verbatim' id='verbatim-2'>
+<span class='ec-lmtt-10'>\documentclass{xourse}
+\title{Title of your activity}
+\author{Your name here}
+\begin{document}
+\begin{abstract}
+  A one-sentence description of the xourse (optional).
+\end{abstract}
+\maketitle
+
+\chapterstyle
+\activity{path-to-someActivity.tex}
+\sectionstyle
+\activity{path-to-someOtherActivity.tex}
+
+\end{document}</span>
+</pre>
+<!-- l. 53 --><p class='nopar'>
+</p>
+</body> 
+ 
+</html>
