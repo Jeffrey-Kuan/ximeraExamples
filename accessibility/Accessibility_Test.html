@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head> <title>Accessibility Testing</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='\aa:CssFile ' rel='stylesheet' type='text/css' /> 
+<meta content='Accessibility_Test.online.tex' name='src' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+<meta content='' name='author' /> 
+<meta content='version 2.5.1' name='ximera' /> 
+<link href='https://ximera.osu.edu/public/stylesheets/standalone.css' media='screen' rel='stylesheet' /> 
+<script src='https://ximera.osu.edu/public/javascripts/standalone.min.js' type='text/javascript'></script> 
+</head><body> 
+<div class='preamble'>
+<script type='math/tex'>\newenvironment {prompt}{}{}
+\newcommand {\accordion }[0]{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\xmDefaultPreamble }[0]{xmPreamble.tex}
+\newcommand {\xmDefaultPrintstyle }[0]{xmPrintstyle.sty}
+\newcommand {\luastring }[1]{"\luatexluaescapestring {#1}"}
+\newcommand {\luastringO }[1]{\luastring {\unexpanded \expandafter {#1}}}
+\newcommand {\luastringN }[1]{\luastring {\unexpanded {#1}}}
+\newcommand {\RestoreMathJaxEnvironment }[1]{\expandafter \let \csname #1\expandafter \endcsname \csname mathjax-#1\endcsname \expandafter \let \csname end#1\expandafter \endcsname \csname mathjax-end#1\endcsname }
+\newcommand {\DeclareMicrotypeVariants }[1]{}
+\newcommand {\DeclareMicrotypeAlias }[2]{}
+\newcommand {\LoadMicrotypeFile }[1]{}
+\newcommand {\DeclareMicrotypeFilePrefix }[1]{}
+\newcommand {\DeclareMicrotypeBabelHook }[2]{}
+\newcommand {\microtypesetup }[1]{}
+\newcommand {\microtypecontext }[1]{}
+\newcommand {\textmicrotypecontext }[2]{#2}
+\newcommand {\leftprotrusion }[1]{#1}
+\newcommand {\rightprotrusion }[1]{#1}
+\newcommand {\noprotrusionifhmode }[0]{}
+\newcommand {\lsstyle }[0]{}
+\newcommand {\lslig }[1]{#1}
+\newcommand {\maketitle }[0]{}
+\newcommand {\ConfigureQuestionEnv }[2]{\renewenvironment {#1}{\refstepcounter {problem}}{}\ConfigureEnv {#1}{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div role="article" class="problem-environment #2" id="problem\arabic {identification}"&gt;}}{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;/div&gt;}\IgnoreIndent }{}{}}
+\newcommand {\problem }[0]{\refstepcounter {problem}}
+\newcommand {\exercise }[0]{\refstepcounter {problem}}
+\newcommand {\question }[0]{\refstepcounter {problem}}
+\newcommand {\exploration }[0]{\refstepcounter {problem}}
+\newcommand {\ConfigureTheoremEnv }[1]{\renewenvironment {#1}[1][]{\refstepcounter {problem}\ifthenelse {\equal {###1}{}}{}{\HCode {&lt;span class="theorem-like-title"&gt;}###1\HCode {&lt;/span&gt;}}}{} \ConfigureEnv {#1}{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="theorem-like problem-environment #1" id="problem\arabic {identification}"&gt;}}{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;/div&gt;}\IgnoreIndent }{}{}}
+\newcommand {\pgfsyspdfmark }[3]{}
+\newcommand {\dialogue }[0]{\begin {description}}
+\newcommand {\foldable }[0]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div id="foldable\arabic {identification}" class="foldable"&gt;}}
+\newcommand {\unfoldable }[1]{\HCode {&lt;span class="unfoldable"&gt;}#1\HCode {&lt;/span&gt;}}
+\newcommand {\selectAll }[0]{\refstepcounter {problem}}
+\newcommand {\freeResponse }[0]{\refstepcounter {problem}}
+\newcommand {\javascript }[0]{\NoFonts }
+\newcommand {\sageCell }[0]{\NoFonts }
+\newcommand {\sageOutput }[0]{\NoFonts }
+\newcommand {\sagesilent }[0]{\NoFonts }
+\newcommand {\ungraded }[0]{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="ungraded"&gt;}\IgnoreIndent }
+\newcommand {\accordion }[0]{\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="accordion"&gt;} }
+\newcommand {\expandable }[2]{\stepcounter {identification}\ifvmode \IgnorePar \fi \EndP \HCode {&lt;div class="accordion"&gt;\Hnewline }\HCode {&lt;h3 class="#1"&gt;}#2\HCode {&lt;/h3&gt;\Hnewline }\HCode {&lt;div id="accordion-item\arabic {identification}" class="accordion-item #1-content"&gt;\Hnewline } }
+\newcommand {\paragraph }[1]{\HCode {&lt;span class="paragraphHead"&gt;}#1\HCode {&lt;/span&gt;}\par \IgnorePar }
+\newcommand {\subparagraph }[1]{\HCode {&lt;span class="subparagraphHead"&gt;}#1\HCode {&lt;/span&gt;}\par \IgnorePar }
+\newcommand {\outcome }[1]{\HCode {&lt;span class="learning-outcome"&gt;#1&lt;/span&gt;} }
+\newcommand {\javascriptCode }[0]{\NoFonts }
+\newcommand {\tblrNoHyper }[0]{\NoHyper }
+\newcommand {\ref }[1]{\HCode {&lt;a class="reference" href="\##1"&gt;#1&lt;/a&gt;}}</script></div>
+<style> .activity-body pre { white-space: pre; background-color: lightgray; } .xmyoutube { aspect-ratio: 16/9; min-width: 75%; } .image-environment img { width: unset; } </style> 
+  
+<div class='abstract'>
+ 
+</div>
+<div class='maketitle'></div>     
+<ol class='enumerate1'>
+<li class='enumerate' id='x1-3x1'>Debut
+</li>
+<li class='enumerate' id='x1-5x2'>     
+<!--  l. 13  --><p class='noindent'>Fearless
+</p>         
+<ol class='enumerate2'>
+<li class='enumerate' id='x1-7x1'>Best Country Album
+</li>
+<li class='enumerate' id='x1-9x2'>Best Album</li></ol>
+</li>
+<li class='enumerate' id='x1-11x3'>Speak Now
+</li>
+<li class='enumerate' id='x1-13x4'>Red
+</li>
+<li class='enumerate' id='x1-14x4'><span class='mathjax-inline'>\(1989-1\)</span>
+</li>
+<li class='enumerate' id='x1-16x5'>Reputation</li></ol>
+                                                                  
+
+                                                                  
+<table class='tabularray tblr' id='tbl-1'> <span class='mathjax-inline'>\(\m@th \l__tblr_delim_left_tl \tex_vcenter:D {\vbox_unpack_drop:N \l__tblr_table_box }\l__tblr_delim_right_tl \)</span><tr id='row-1-1-'><td id='cell1-1-1' style='vertical-align:top;border-top:1.99255px solid #000000;background-color:#9DC4EB;'>Alpha</td><td id='cell1-1-2' style='vertical-align:top;border-top:1.99255px solid #000000;background-color:#9DC4EB;'>Beta</td><td id='cell1-1-3' style='vertical-align:top;border-top:1.99255px solid #000000;background-color:#9DC4EB;'>Gamma</td><td id='cell1-1-4' style='vertical-align:top;border-top:1.99255px solid #000000;background-color:#9DC4EB;'>Delta</td></tr>
+ <tr id='row-1-2-'><td id='cell1-2-1' style='text-align:center;vertical-align:top;border-top:0.79701px solid #000000;background-color:#BBBBF0;'> Epsilon</td> <td id='cell1-2-2' style='text-align:center;vertical-align:top;border-top:0.79701px solid #000000;background-color:#BBBBF0;'> Zeta</td> <td id='cell1-2-3' style='text-align:center;vertical-align:top;border-top:0.79701px solid #000000;background-color:#BBBBF0;'> Eta</td> <td id='cell1-2-4' style='text-align:center;vertical-align:top;border-top:0.79701px solid #000000;background-color:#BBBBF0;'> Theta</td></tr>
+ <tr id='row-1-3-'><td id='cell1-3-1' style='vertical-align:top;border-top:0.79701px solid #000000;border-bottom:1.99255px solid #000000;background-color:#D2B4F0;'> Iota</td> <td id='cell1-3-2' style='vertical-align:top;border-top:0.79701px solid #000000;border-bottom:1.99255px solid #000000;background-color:#D2B4F0;'> Kappa</td> <td id='cell1-3-3' style='vertical-align:top;border-top:0.79701px solid #000000;border-bottom:1.99255px solid #000000;background-color:#D2B4F0;'> Lambda</td> <td id='cell1-3-4' style='vertical-align:top;border-top:0.79701px solid #000000;border-bottom:1.99255px solid #000000;background-color:#D2B4F0;'> Mu</td></tr>
+         
+                          
+         
+                          
+         
+                          </table>
+<section class='thebibliography' role='doc-bibliography'>
+<h3 class='likesectionHead' id='references'><a id='x1-1000'></a>References</h3>
+<!--  l. 35  -->
+<dl><dt> 
+[1]
+</dt><dd><a id='XT1'></a>Taylor Swift’s Cats
+</dd><dt> 
+[2]
+</dt><dd><a id='XT2'></a>Books</dd></dl>
+</section>
+</body> 
+ 
+</html>
